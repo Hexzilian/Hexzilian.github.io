@@ -1,0 +1,29 @@
+body {
+  background-color:rgba(253, 0, 0, 0.973);
+}
+
+h1 {
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+}
+
+.audio {
+  display: table;
+  margin: 0 auto;
+}
+
+.a {
+  text-align: center;
+}
+
+.main {
+  text-align: center;
+}
