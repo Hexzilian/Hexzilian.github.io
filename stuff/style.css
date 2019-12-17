@@ -34,7 +34,7 @@ nav {
   font-weight: bold;
 }
 
-#mainMessage {
+.mainMessage {
   text-align: center;
   font-weight: bold;
   font-size: 17px;
@@ -45,12 +45,10 @@ nav {
   float: left;
 }
 
-#picsIntro {
+.picsIntro {
   text-align: center;
   font-size: 17px;
 }
-
-/* CSS for links begins */
 
 a:link {
   color: rgb(75,0,130);
@@ -67,8 +65,6 @@ a:visited {
   display: inline-block;
   text-decoration: none;
 }
-
-/* CSS for links end */
 
 .noteSection {
   font-family: cursive;
