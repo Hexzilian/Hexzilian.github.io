@@ -11,6 +11,15 @@ nav {
 }
 
 .center {
+  text-align: center;
+}
+
+.note {
+  text-align: center;
+  font-size: 13px;
+}
+
+.gif {
   margin: auto;
   width: 50%;
 }
@@ -20,10 +29,48 @@ nav {
   margin: 0 auto;
 }
 
-.a {
+.audioText {
   text-align: center;
+  font-weight: bold;
 }
 
-.main {
+#mainMessage {
   text-align: center;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.picLeft {
+  margin: auto;
+  float: left;
+}
+
+#picsIntro {
+  text-align: center;
+  font-size: 17px;
+}
+
+/* CSS for links begins */
+
+a:link {
+  color: rgb(75,0,130);
+  border: 2px solid rgb(75,0,130);
+  padding: 10px 20px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(212,175,55);
+  border: 2px solid rgb(212,175,55);
+  padding: 10px 20px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+/* CSS for links end */
+
+.noteSection {
+  font-family: cursive;
+  font-size: 20px;
 }
