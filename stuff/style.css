@@ -34,10 +34,14 @@ nav {
   font-weight: bold;
 }
 
-.mainMessage {
+#mainMessage {
   text-align: center;
   font-weight: bold;
   font-size: 17px;
+  border: 4px solid rgb(255,255,255);
+  max-width: 600px;
+  position: relative;
+  left: 470px;
 }
 
 .picLeft {
@@ -69,4 +73,9 @@ a:visited {
 .noteSection {
   font-family: cursive;
   font-size: 20px;
+}
+
+hr {
+  float: none;
+  clear: both;
 }
